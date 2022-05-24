@@ -430,6 +430,119 @@ footer a {
   color: #e7f743;
 }
 
+.contacts-banner {
+  color: #fff;
+  overflow: hidden;
+  min-height: 400px;
+  position: relative;
+  z-index: 1;
+  background: url("../../img/contacts_banner.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.contacts-banner a {
+  color: #fff;
+}
+
+.contacts-banner hr {
+  display: block;
+  width: 15em;
+  border-color: #fff;
+  margin: 30px auto;
+}
+
+.contacts-banner h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contacts-banner-phone {
+  margin-bottom: 30px;
+  display: block;
+  list-style: none;
+  text-align: center;
+}
+
+.contacts-banner-phone li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contacts-banner-social {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.contacts-person {
+  margin-bottom: 20px;
+}
+
+.contacts-person .person {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.contacts-person .person-card {
+  flex: 0 1 calc(20% - 10px);
+}
+
+.contacts-person .person-card__image {
+  border-radius: 8em;
+  height: 8em;
+  width: 8em;
+  display: block;
+  margin: 10px auto;
+}
+
+.contacts-person .person-card__title {
+  color: #000;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contacts-person .person-card__text {
+  color: #484849;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contacts-person .person-card__phone {
+  color: #000;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.contacts-person .person-card__email {
+  color: #484849;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.contacts-location {
+  margin-bottom: 20px;
+}
+
+.contacts-location h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contacts-location p {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
 /* ==== Adaptive ==== */
 
 /* === PHONE === */
