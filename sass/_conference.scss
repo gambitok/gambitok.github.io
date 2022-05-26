@@ -1,0 +1,60 @@
+
+.conference {
+
+  &-title {
+    h1 {
+      text-align: center;
+      margin: 20px 0;
+      font-size: $font-h1;
+    }
+
+    hr {
+      border-color: $bg-secondary;
+      display: block;
+      margin: 20px auto;
+      width: 50%;
+    }
+  }
+
+  &-content {
+    margin: 20px 0;
+
+    button {
+      display: block;
+      margin: 20px auto;
+    }
+  }
+
+}
+
+.hall {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 60px 0;
+
+  &-card {
+
+    height: 300px;
+    padding: 20px;
+    background-image: var(--background);
+    background-position: center;
+    margin: 0 15px;
+    width: 100%;
+
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    p {
+      font-size: $font-h2;
+      color: $bg_light;
+      font-weight: bold;
+      text-shadow: $bg-dark 2px 2px;
+    }
+
+  }
+
+}

@@ -543,6 +543,55 @@ footer a {
   text-align: center;
 }
 
+.conference-title h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2.5rem;
+}
+
+.conference-title hr {
+  border-color: #2f2f2f;
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+}
+
+.conference-content {
+  margin: 20px 0;
+}
+
+.conference-content button {
+  display: block;
+  margin: 20px auto;
+}
+
+.hall {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 60px 0;
+}
+
+.hall-card {
+  height: 300px;
+  padding: 20px;
+  background-image: var(--background);
+  background-position: center;
+  margin: 0 15px;
+  width: 100%;
+}
+
+.hall-card a:hover {
+  text-decoration: none;
+}
+
+.hall-card p {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: #000 2px 2px;
+}
+
 /* ==== Adaptive ==== */
 
 /* === PHONE === */
