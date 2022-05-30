@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--bootstrap grid-->
-    <link rel="stylesheet" href="css/plugins/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/plugins/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../css/plugins/bootstrap.min.css">
     <!--font-awesome-->
-    <link rel="stylesheet" href="css/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../css/plugins/font-awesome/css/font-awesome.css">
     <!--custom styles-->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
     <!--jquery-->
-    <script src="css/plugins/jquery-3.5.0.min.js"></script>
+    <script src="../css/plugins/jquery-3.5.0.min.js"></script>
     <!--bootstrap script-->
-    <script src="js/plugins/bootstrap.min.js"></script>
+    <script src="../js/plugins/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -82,44 +82,57 @@
 
 <main class="main">
 
-    <section class="conference-title">
-
+    <section>
         <div class="container">
-            <h1>ОРЕНДА КОНФЕРЕНЦ-ЗАЛІВ</h1>
-            <hr>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-transparent px-0">
+                    <li class="breadcrumb-item"><a class="text-body" href="../index.html">Головна</a></li>
+                    <li class="breadcrumb-item"><a class="text-body" href="../events.html">Події</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">ЧАЙНА ЦЕРЕМОНІЯ</li>
+                </ol>
+            </nav>
         </div>
-
     </section>
 
-    <section class="conference-content">
+    <section class="news-content">
 
         <div class="container">
 
-            <div class="hall">
-                <div class="hall-card" data-image-src="img/halls/hall1.png" style="--background: url('../img/halls/hall1.png')">
-                    <a href="">
-                        <p>Quahog event space</p>
-                        <p>278 кв. м.</p>
-                        <p>150 стільців</p>
-                    </a>
-                </div>
-                <div class="hall-card" data-image-src="img/halls/hall2.png" style="--background: url('../img/halls/hall2.png')">
-                    <a href="">
-                        <p>Quahog event space</p>
-                        <p>278 кв. м.</p>
-                        <p>150 стільців</p>
-                    </a>
-                </div>
-                <div class="hall-card" data-image-src="img/halls/hall1.png" style="--background: url('../img/halls/hall1.png')">
-                    <a href="">
-                        <p>Quahog event space</p>
-                        <p>278 кв. м.</p>
-                        <p>150 стільців</p>
-                    </a>
-                </div>
-            </div>
+            <div class="news-container">
 
-            <button class="btn btn-custom" type="button" data-toggle="modal" data-target="#exampleModalCenter">Зв'язатись з нами</button>
+                <h1>ЧАЙНА ЦЕРЕМОНІЯ</h1>
+
+                <div class="news-container-row">
+                    <img src="../img/news/news1.png" alt="image">
+                    <p>Що може бути кращим за гарне чаювання?
+
+                        Запрошуємо вас знову поринути у світ чайної церемонії!
+
+                        Ви познайомитесь з Японським та Китайським високогірним чаєм і  відкриєте цілий Всесвіт, в якому зупиняється час та заспокоюється душа.
+
+                        Ви дізнаєтесь історію виникнення чаю, нюанси його виробництва, вплив на наше життя, а також продегустуєте декілька видів чаю від нашого майстра Дмитра (плануйте на все до години часу). Чайна церемонія відбудеться 20.05 (з 13:30) в новому просторі Quoroom (3 поверх) для 30 перших зареєструвавшихся резидентів. Захід безкоштовний. Реєстрація у Дмитра за номером +380 67 358 3812.
+
+                        Хочемо попередити вас відразу - після знайомства зі справжнім чайним світом, ваше життя розділиться на "до" та "після". У світі Tea Temple завжди панує любов і гармонія!
+
+                        До зустрічі!
+                    </p>
+                </div>
+
+                <div class="news-container-links">
+                    <div class="news-container-links__item">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                    </div>
+                    <div class="news-container-links__item">
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="news-container-links__item">
+                        <a href=""><i class="fa fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <span class="news-container-date">ПОЧАТОК: 20 ТРАВНЯ 2021, 13:30</span>
+
+            </div>
 
         </div>
 
@@ -203,7 +216,7 @@
 </div>
 
 <!--custom scripts-->
-<script src="js/script.js"></script>
+<script src="../js/script.js"></script>
 
 </body>
 </html>

@@ -6,10 +6,11 @@
       text-align: center;
       margin: 20px 0;
       font-size: $font-h1;
+      font-weight: bold;
     }
 
     hr {
-      border-color: $bg-secondary;
+      border-color: $clr-primary;
       display: block;
       margin: 20px auto;
       width: 50%;
