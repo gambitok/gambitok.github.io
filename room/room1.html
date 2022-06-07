@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--bootstrap grid-->
-    <link rel="stylesheet" href="css/plugins/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/plugins/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../css/plugins/bootstrap.min.css">
     <!--font-awesome-->
-    <link rel="stylesheet" href="css/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../css/plugins/font-awesome/css/font-awesome.css">
     <!--custom styles-->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
     <!--jquery-->
-    <script src="css/plugins/jquery-3.5.0.min.js"></script>
+    <script src="../css/plugins/jquery-3.5.0.min.js"></script>
     <!--bootstrap script-->
-    <script src="js/plugins/bootstrap.min.js"></script>
+    <script src="../js/plugins/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -82,50 +82,58 @@
 
 <main class="main">
 
-    <section class="rent-title">
+    <section>
         <div class="container">
-            <h1>ОРЕНДА</h1>
-            <hr>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-transparent px-0">
+                    <li class="breadcrumb-item"><a class="text-body" href="../index.html">Головна</a></li>
+                    <li class="breadcrumb-item"><a class="text-body" href="../infrastructure.html">Інфраструктура</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">ЕКСКУРСІЯ ДЛЯ РЕЗИДЕНТІВ</li>
+                </ol>
+            </nav>
         </div>
     </section>
 
-    <section class="rent-content">
+    <section class="news-content">
+
         <div class="container">
 
-            <div class="rent">
-                <div class="rent-card">
-                    <p class="rent-card__title">11 ПОВЕРХ</p>
-                    <p class="rent-card__text">11 ПОВЕРХ</p>
-                    <div class="rent-card__image">
-                        <img src="/img/rent/rent1.jpg" alt="Rent">
+            <div class="news-container">
+
+                <h1>ЕКСКУРСІЯ ДЛЯ РЕЗИДЕНТІВ</h1>
+
+                <div class="news-container-row">
+                    <img src="../img/news/news1.png" alt="image">
+                    <p>17 та 18 червня 2021 року напередодні Святої Трійці серед резидентів IQ business center зібралися дві екскурсійні групи, які відвідали храм та підземний печерний комплекс Архангело-Михайлівського Звіринецького монастиря.
+
+                        Щиро вдячні нашому гіду Анатолію за допомогу, за теплий прийом, за  натхненну  розповідь про минуле і сьогодення  обителі.
+
+                        Працівники БЦ мають чудову можливість навіть під час обідньої перерви завітати на територію Архангело-Михайлівського Звіринецького монастиря, відвідувати цікаві екскурсії, без запізнень повертаючись до роботи.
+
+                        Адреса: м.Київ, вулиця Мічуріна, 20 (на відстані  600 м  від IQ business center)
+
+                        <a href="/">http://www.zvcaves.com.ua/index.php?option=com_frontpage&Itemid=1</a>
+                    </p>
+                </div>
+
+                <div class="news-container-links">
+                    <div class="news-container-links__item">
+                        <a href=""><i class="fa fa-facebook"></i></a>
                     </div>
-                    <div class="rent-card__btn">
-                        <a href="/rent/rent1.html" class="btn btn-custom">Детальніше</a>
+                    <div class="news-container-links__item">
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="news-container-links__item">
+                        <a href=""><i class="fa fa-envelope"></i></a>
                     </div>
                 </div>
-                <div class="rent-card">
-                    <p class="rent-card__title">9 ПОВЕРХ</p>
-                    <p class="rent-card__text">9 ПОВЕРХ</p>
-                    <div class="rent-card__image">
-                        <img src="/img/rent/rent1.jpg" alt="Rent">
-                    </div>
-                    <div class="rent-card__btn">
-                        <a href="/rent/rent1.html" class="btn btn-custom">Детальніше</a>
-                    </div>
-                </div>
-                <div class="rent-card">
-                    <p class="rent-card__title">5 ПОВЕРХ</p>
-                    <p class="rent-card__text">5 ПОВЕРХ</p>
-                    <div class="rent-card__image">
-                        <img src="/img/rent/rent1.jpg" alt="Rent">
-                    </div>
-                    <div class="rent-card__btn">
-                        <a href="/rent/rent1.html" class="btn btn-custom">Детальніше</a>
-                    </div>
-                </div>
+
+                <span class="news-container-date">24/06/2021</span>
+
             </div>
 
         </div>
+
     </section>
 
 </main>
@@ -206,7 +214,7 @@
 </div>
 
 <!--custom scripts-->
-<script src="js/script.js"></script>
+<script src="../js/script.js"></script>
 
 </body>
 </html>

@@ -678,6 +678,116 @@ footer a {
   width: calc(50% - 30px);
 }
 
+.infra-title h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.infra-title h2 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+
+.infra-title hr {
+  border-color: #acacb6;
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+}
+
+.infra-content {
+  background: #fff;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.room {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.room-card {
+  border: 1px solid black;
+  padding: 15px;
+  width: calc(30% - 15px);
+  margin-bottom: 30px;
+}
+
+.room-card-long {
+  width: calc(70% - 15px);
+}
+
+.room-card a:hover {
+  text-decoration: none;
+}
+
+.room-card__title {
+  text-shadow: #000 2px 2px;
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.room-card__text {
+  text-shadow: #000 2px 2px;
+  font-size: 0.75rem;
+  color: #fff;
+}
+
+.rent {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.rent-card__title {
+  font-size: 0.75rem;
+  color: #000;
+  font-weight: bold;
+}
+
+.rent-card__text {
+  font-size: 0.75rem;
+  color: #2f2f2f;
+}
+
+.rent-card__image {
+  height: 200px;
+  width: 300px;
+}
+
+.rent-card__image img {
+  width: 100%;
+}
+
+.rent-card__btn a {
+  width: 100%;
+}
+
+.rent-title h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.rent-title hr {
+  border-color: #acacb6;
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+}
+
+.rent-content {
+  background: #fff;
+  padding: 15px;
+  margin: 20px 0;
+}
+
 /* ==== Adaptive ==== */
 
 /* === PHONE === */

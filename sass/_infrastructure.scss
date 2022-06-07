@@ -1,21 +1,73 @@
+
+.infra {
+
+  &-title {
+
+    h1 {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    h2 {
+      text-align: center;
+      margin: 20px 0;
+      font-size: $font-h2;
+    }
+
+    hr {
+      border-color: $clr-primary;
+      display: block;
+      margin: 20px auto;
+      width: 50%;
+    }
+
+  }
+
+  &-content {
+    background: $bg_light;
+    padding: 15px;
+    margin: 20px 0;
+  }
+
+}
+
 .room {
 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
   &-card {
+    border: 1px solid black;
+    padding: 15px;
+    width: calc(30% - 15px);
+    margin-bottom: 30px;
+
+    &-long {
+      width: calc(70% - 15px);
+    }
 
     a {
 
       &:hover {
-
+        text-decoration: none;
       }
 
     }
 
     &__title {
-
+      text-shadow: $bg-dark 2px 2px;
+      font-size: $font_h2;
+      color: $bg_light;
+      text-transform: uppercase;
     }
 
     &__text {
-
+      text-shadow: $bg-dark 2px 2px;
+      font-size: $font_h3;
+      color: $bg_light;
     }
 
   }
