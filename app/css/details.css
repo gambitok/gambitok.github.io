@@ -1,0 +1,119 @@
+.share {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.share a {
+    color: #888;
+}
+
+.share img {
+    height: auto;
+    width: 50px;
+}
+
+.news-content {
+    display: block;
+    margin-top: 1em;
+}
+
+.news-content__category a { 
+    font-weight: bold;
+    color: #E99200;
+    margin-right: 10px;
+}
+
+.news-content-header {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.news-content-header__date {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.news-content-header__share {
+    width: 50%;
+}
+
+.news-content__title {
+    margin-top: 1em;
+    color: #010101;
+    font-size: 18px;
+    line-height: 37px;
+    margin-top: 5px;
+}
+
+.news-content__image {
+    margin-top: 1em;
+    border: 1px solid black;
+}
+
+.news-content__image img {
+    width: 100%;
+}
+
+.news-content__description {
+    margin-top: 1em;
+    text-align: justify;
+    color: #4a4a4a;
+}
+
+.news-content__description p {
+    margin-top: 1em;
+}
+
+.news-footer {
+    margin-top: 1em;
+    display: block;
+}
+
+.news-comment {
+    margin-top: 1em;
+    display: block;
+    border-bottom: 1px solid #888;
+    padding-bottom: 10px;
+}
+
+.news-comment input[type=text], .news-comment input[type=email] {
+    text-align: center;
+    height: 60px;
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px 10px;
+    line-height: 24px;
+    border: 1px solid #DEDEDE;
+    margin-bottom: 20px;
+    margin-top: 1em;
+}
+
+.news-comment textarea {
+    font-family: tahoma;
+    text-align: center;
+    height: 100px;
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px 10px;
+    line-height: 24px;
+    border: 1px solid #DEDEDE;
+    margin-bottom: 20px;
+    margin-top: 1em;
+}
+
+.news-comment input[type=submit] {
+    text-transform: uppercase;
+    color: #fff;
+    background: #E99200;
+    border: 1px solid #E99200;
+    font-weight: bold;
+    padding: 7px 20px;
+    height: 30px;
+    cursor: pointer;
+}

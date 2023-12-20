@@ -1,0 +1,410 @@
+html { 
+    width: 100%; 
+    height: 100%; 
+}
+
+* { 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    padding: 0; 
+    margin: 0; 
+}
+
+body { 
+    width: 100%; 
+    height: 100%; 
+    background: #fff; 
+    font-family: tahoma;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:not([href]) {
+    text-decoration: underline;
+}
+
+header {
+    margin-bottom: 1em;
+}
+
+.header-top {
+    background: #ebebeb;
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 0;
+    line-height: 18px;
+}
+
+.header-top .high-link {
+    color: #E99200;
+}
+
+.header-top ul {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.header-top li {
+    margin-right: 2em;
+}
+
+.header-top a {
+    color: #000;
+    font-weight: bold;
+}
+
+.header-top-login {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    list-style: none;
+}
+
+.socials li {
+    margin-right: .5em;
+}
+
+.socials img {
+    height: auto;
+    width: 28px;
+}
+
+.h1 {
+    border-bottom: 4px solid #E99200;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.h1 h1 {
+    color: #010101;
+    font-size: 18px;
+    line-height: 15px;
+    letter-spacing: 0;
+    margin: 0.67em 0;
+    font-weight: 500;
+}
+
+.nav-menu {
+    background: #ededed;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.nav-side {
+    height: 100%;
+}
+
+.nav-side ul {
+    list-style: none;
+    display: flex;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav-side li {
+    padding-right: 15px;
+}
+
+.navigation {
+    color: #4a4a4a;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.navigation li {
+    line-height: 30px;
+    border-right: 1px solid #fff;
+    float: left;
+    margin: 0;
+}
+.navigation li.active a {
+    background-color: #e99200;
+    color: #fff;
+}
+
+.navigation a {
+    line-height: 40px;
+    color: black;
+    width: 100%;
+    height: 100%;
+    padding: 12px 8px;
+}
+
+.navigation a:hover {
+    color: #fff!important;
+    background-color: #e99200;
+}
+
+.breadcrumb {
+    background: #f5f5f5;
+    font-size: 13px;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+}
+
+.breadcrumb a {
+    font-size: 13px;
+    color: #4a4a4a;
+}
+
+.breadcrumb li {
+    padding: 12px 8px;
+}
+.breadcrumb li:first-child {
+    margin-left: 15px;
+}
+.breadcrumb li:not(:first-child):before {
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 0.5rem;
+    color: #6c757d;
+    content: ">";
+}
+
+.title-header {
+    font-size: 13px;
+    background: #E99200;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+}
+
+.body-header a {
+    color: #E99200;
+}
+
+.body-header img {
+    width: 100%;
+}
+
+.body-header p {
+    font-size: 13px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+
+.body-header b {
+    color: #E99200;
+}
+
+.body-list {
+    padding: 15px;
+    list-style: none;
+}
+
+.body-list li {
+    line-height: 24px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.body-list li:before {
+    content: "- ";
+    text-indent: -5px;
+}
+
+.body-list p {
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
+.body-footer {
+    margin-top: 1em;
+    font-size: 13px;
+}
+
+.body-footer ul {
+    list-style: none;
+    display: flex;
+}
+
+.body-footer li {
+    margin-left: 15px;
+    width: 50px;
+}
+
+.body-footer span {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.body-footer img {
+    display: block;
+    margin: 0 auto;
+}
+
+.body-footer a {
+    color: #010101;
+    font-weight: bold;
+}
+
+.body-footer i {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #666;
+    font-style: unset;
+}
+
+.body-footer b {
+    color: #000;
+}
+
+.body-side {
+    font-size: 14px;
+}
+
+.body-side-header {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #777;
+    border-bottom: 4px solid #e99200;
+    padding: 5px 15px;
+}
+
+.body-side-header a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.body-side-main ul {
+    list-style: none;
+}
+
+.body-side-main li {
+    margin: 0 15px;
+    padding: 10px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.body-side-main a {
+    font-size: 13px;
+    color: #777;
+}
+
+.body-side-footer {
+    margin-bottom: 1em;
+    padding: 10px;
+    border-left: 1px solid #e99200;
+    border-right: 1px solid #e99200;
+    border-bottom: 1px solid #e99200;
+}
+
+.body-side-footer select {
+    text-transform: uppercase;
+    width: 100%;
+}
+
+footer {
+    font-size: 12px;
+    background: #ebebeb;
+    margin-top: 5em;
+}
+
+.footer-row {
+    padding-top: 2em;
+}
+
+.footer-list a {
+    color: #000;
+}
+
+.footer-list ul {
+    font-weight: bold;
+    list-style: none;
+}
+
+.footer-list li {
+    margin-left: 10px;
+    line-height: 20px;
+}
+
+.footer-list-header {
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #E99200;
+}
+
+.footer-list-header a {
+    color: #000;
+}
+
+.footer-link {
+    margin-bottom: 2em;
+}
+
+.footer-link .high-link {
+    color: #E99200;
+    font-weight: bold;
+}
+
+.tab-pane {
+    display: none;
+    font-size: 12px;
+    color: #fff;
+    background: #e99200;
+    width: 100%;
+    padding: 10px 0;
+    font-weight: 500;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+.tab-pane ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+}
+
+.tab-pane li {
+    padding: 0;
+}
+
+.tab-pane li:first-child {
+    margin-left: 15px;
+}
+
+.tab-pane li:not(:first-child):before {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 0.5rem;
+    color: #fff;
+    content: "|";
+}
+
+.tab-pane a {
+    color: #fff;
+}
+
+.slick-custom img {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.slick-prev:before {
+    color: black!important;
+}
+  
+.slick-next:before {
+    color: black!important;
+}
