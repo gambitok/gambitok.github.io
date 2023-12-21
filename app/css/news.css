@@ -42,6 +42,13 @@
     font-size: 12px;
 }
 
+.news-card__text-date:before {
+    display: inline-block;
+    padding-right: 5px;
+    color: #000;
+    content: "|";
+}
+
 .news-card__text-title {
     font-size: 14px;
     margin-top: 1em;
