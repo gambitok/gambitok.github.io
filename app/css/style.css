@@ -1,3 +1,13 @@
+:root {
+    --main-bg-color: #c1aa50;
+    --second-bg-color: #f1f1f1;
+    --side-bg-color: #292929;
+    --test-1: #c17250;
+    --test-2: #c18e50;
+    --test-3: #c15650;
+    --test-4: #a87b67;
+}
+
 html { 
     width: 100%; 
     height: 100%; 
@@ -14,7 +24,7 @@ body {
     width: 100%; 
     height: 100%; 
     background: #fff; 
-    font-family: tahoma;
+    font-family: system-ui;
 }
 
 a {
@@ -29,8 +39,30 @@ header {
     margin-bottom: 1em;
 }
 
+.header-logo {
+    max-width: 220px;
+    border: 1px solid var(--main-bg-color);
+    margin: 1em 0;
+}
+
+.header-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-logo {
+    max-width: 220px;
+    border: 1px solid var(--main-bg-color);
+    margin: 1em 0;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: 100%;
+}
+
 .header-top {
-    background: #ebebeb;
+    background: var(--second-bg-color);
     color: #000;
     font-size: 12px;
     font-weight: 500;
@@ -39,7 +71,7 @@ header {
 }
 
 .header-top .high-link {
-    color: #E99200;
+    color: var(--main-bg-color);
 }
 
 .header-top ul {
@@ -64,6 +96,10 @@ header {
     align-items: center;
 }
 
+.header-top .socials {
+    justify-content: right;
+}
+
 .socials {
     display: flex;
     list-style: none;
@@ -78,8 +114,22 @@ header {
     width: 28px;
 }
 
+.socials a {
+    color: var(--side-bg-color);
+    font-size: 21px;
+    padding: 5px;
+}
+
+.footer-socials .socials a {
+    color: #fff;
+}
+
+.socials a:hover {
+    color: var(--main-bg-color);
+}
+
 .h1 {
-    border-bottom: 4px solid #E99200;
+    border-bottom: 4px solid var(--main-bg-color);
     padding-left: 15px;
     margin-bottom: 10px;
 }
@@ -132,7 +182,7 @@ header {
     margin: 0;
 }
 .navigation li.active a {
-    background-color: #e99200;
+    background-color: var(--main-bg-color);
     color: #fff;
 }
 
@@ -146,7 +196,7 @@ header {
 
 .navigation a:hover {
     color: #fff!important;
-    background-color: #e99200;
+    background-color: var(--main-bg-color);
 }
 
 .breadcrumb {
@@ -179,14 +229,14 @@ header {
 
 .title-header {
     font-size: 13px;
-    background: #E99200;
+    background: var(--main-bg-color);
     color: #fff;
     font-weight: bold;
     padding: 5px 5px 5px 15px;
 }
 
 .body-header a {
-    color: #E99200;
+    color: var(--main-bg-color);
 }
 
 .body-header img {
@@ -197,10 +247,11 @@ header {
     font-size: 13px;
     margin-bottom: 15px;
     padding: 0 15px;
+    line-height: 24px;
 }
 
 .body-header b {
-    color: #E99200;
+    color: var(--main-bg-color);
 }
 
 .body-list {
@@ -221,6 +272,7 @@ header {
 .body-list p {
     margin-bottom: 25px;
     font-size: 13px;
+    line-height: 24px;
 }
 
 .body-footer {
@@ -264,6 +316,7 @@ header {
 
 .body-footer b {
     color: #000;
+    padding: 0 15px;
 }
 
 .body-side {
@@ -273,8 +326,8 @@ header {
 .body-side-header {
     text-transform: uppercase;
     color: #fff;
-    background-color: #777;
-    border-bottom: 4px solid #e99200;
+    background-color: var(--test-3);
+    border-bottom: 4px solid var(--main-bg-color);
     padding: 5px 15px;
 }
 
@@ -295,15 +348,15 @@ header {
 
 .body-side-main a {
     font-size: 13px;
-    color: #777;
+    color: var(--side-bg-color);
 }
 
 .body-side-footer {
     margin-bottom: 1em;
     padding: 10px;
-    border-left: 1px solid #e99200;
-    border-right: 1px solid #e99200;
-    border-bottom: 1px solid #e99200;
+    border-left: 1px solid var(--main-bg-color);
+    border-right: 1px solid var(--main-bg-color);
+    border-bottom: 1px solid var(--main-bg-color);
 }
 
 .body-side-footer select {
@@ -313,7 +366,7 @@ header {
 
 footer {
     font-size: 12px;
-    background: #ebebeb;
+    background: var(--side-bg-color);
     margin-top: 5em;
 }
 
@@ -322,7 +375,7 @@ footer {
 }
 
 .footer-list a {
-    color: #000;
+    color: #fff;
 }
 
 .footer-list ul {
@@ -333,17 +386,19 @@ footer {
 .footer-list li {
     margin-left: 10px;
     line-height: 20px;
+    line-height: 24px;
 }
 
 .footer-list-header {
+    color: #fff;
     padding-bottom: 7px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-bottom: 3px solid #E99200;
+    border-bottom: 3px solid var(--main-bg-color);
 }
 
 .footer-list-header a {
-    color: #000;
+    color: #fff;
 }
 
 .footer-link {
@@ -351,7 +406,7 @@ footer {
 }
 
 .footer-link .high-link {
-    color: #E99200;
+    color: var(--main-bg-color);
     font-weight: bold;
 }
 
@@ -359,7 +414,7 @@ footer {
     display: none;
     font-size: 12px;
     color: #fff;
-    background: #e99200;
+    background: var(--main-bg-color);
     width: 100%;
     padding: 10px 0;
     font-weight: 500;
