@@ -1,0 +1,150 @@
+
+.home-slider img {
+    width: 100%;
+}
+
+.home-popular-title {
+    display: block;
+    margin-top: 2em;
+    padding: 5px 10px 5px 15px;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 2px solid #ed9a00;
+    margin-bottom: 10px;
+}
+.home-popular-title a {
+    color: #ed9a00;
+}
+
+.home-banner-card img {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.home-popular {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-popular-card {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    display: flex;
+}
+
+.home-popular-card__image {
+    border: 1px solid #ccc;
+    width: 120px;
+    margin-right: 15px;
+    max-height: 60px;
+}
+.home-popular-card__image img {
+    max-width: 100%;
+    max-height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+.home-popular-card__text {
+    width: calc(100% - 135px);
+    font-size: 11px;
+}
+.home-popular-card__text-date {
+    color: #ed9a00;
+}
+.home-popular-card__text-title {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.home-popular-card__text-title a {
+    color: #000;
+}
+.home-popular-card__text-description {
+    color: #666666;
+}
+
+.home-stories {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-stories-card {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    display: flex;
+}
+
+.home-stories-card__image {
+    margin-right: 15px;
+    width: 220px;
+}
+.home-stories-card__image img {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.home-stories-card__text {
+    width: calc(100% - 135px);
+    font-size: 11px;
+}
+.home-stories-card__text-date {
+    color: #ed9a00;
+}
+.home-stories-card__text-title {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.home-stories-card__text-title a {
+    color: #000;
+}
+.home-stories-card__text-description {
+    color: #666666;
+}
+
+
+
+.home-highlights ul {
+    padding-bottom: 15px;
+    list-style: none;
+}
+
+.home-highlights li {
+    padding: 0 0 5px 10px;
+    font-size: 11px;
+    color: #000;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.home-highlights li:before {    
+    display: inline-block;
+    content: ">";
+    color: #E99200;
+    width: 10px;
+    height: 10px;
+    font-size: 8px;
+    font-weight: bold;
+    margin-left: -10px;
+}
+
+.home-highlights a {
+    text-decoration: none;
+    color: #000;
+}
+.home-highlights a:hover {
+    color: #E99200;
+}
+
+.home-highlights p {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 14px;
+    padding: 7px 10px;
+    background: #F8DEB2;
+    border-bottom: 1px solid #E99200;
+}
